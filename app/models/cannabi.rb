@@ -1,0 +1,2 @@
+class Cannabi < ApplicationRecord
+end
