@@ -85,6 +85,4 @@ test:
 #
 production:
   <<: *default
-  database: api_exercise_production
-  username: api_exercise
-  password: <%= ENV["API_EXERCISE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
